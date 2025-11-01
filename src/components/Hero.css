@@ -1,0 +1,31 @@
+.products {
+  padding: 2rem;
+  text-align: center;
+  background-color: #fff3e0;
+}
+
+.products h2 {
+  margin-bottom: 1rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+.hero {
+  text-align: center;
+  padding: 10rem 2rem;
+  background-image: url('/images/800329.jpg'); /* ✅ background set */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+@media (max-width: 1024px) {
+  .hero {
+    max-width: 90%;
+    padding: 3rem 1.5rem;
+    min-height: 60vh;
+  }
+}

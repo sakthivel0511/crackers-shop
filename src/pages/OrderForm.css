@@ -1,0 +1,104 @@
+.order-form-page {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff8f0;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.order-form-page h2 {
+  text-align: center;
+  color: #d9534f;
+  margin-bottom: 20px;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.order-form label {
+  font-weight: bold;
+}
+
+.order-form input,
+.order-form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1.5px solid #ccc;
+}
+
+.order-form textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+.order-form button {
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.order-form button:hover {
+  background-color: #218838;
+}
+
+.owner-contact {
+  margin-top: 30px;
+  padding: 15px;
+  background: #fff3cd;
+  border-left: 5px solid #ffc107;
+  border-radius: 10px;
+  text-align: center;
+}
+.order-form-page {
+  padding: 40px;
+  background-color: #fffbe6;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #d35400;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.order-table th,
+.order-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.order-table th {
+  background-color: #fcd116;
+  color: #333;
+}
+
+.order-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.totals {
+  text-align: right;
+  font-size: 18px;
+  margin-top: 20px;
+  color: #444;
+}

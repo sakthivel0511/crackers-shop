@@ -1,0 +1,12 @@
+body {
+  font-family:cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8e1;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,17 @@
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-header {
+    background-color: #ffa500;
+    padding: 40px;
+    color: white;
+  }
+  
+  .home-banner img {
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }

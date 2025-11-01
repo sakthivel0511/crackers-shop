@@ -1,0 +1,87 @@
+.admin-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.admin-container h2,
+.admin-container h3 {
+  text-align: center;
+  color: #333;
+}
+
+.admin-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.admin-form input {
+  flex: 1 1 45%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.admin-form button {
+  padding: 12px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.admin-form button:hover {
+  background-color: #0056b3;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.admin-table th,
+.admin-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.admin-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.admin-table img {
+  width: 60px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.admin-table button {
+  background-color: #ffc107;
+  border: none;
+  padding: 6px 10px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.admin-table button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+.admin-table button:hover {
+  opacity: 0.8;
+}
