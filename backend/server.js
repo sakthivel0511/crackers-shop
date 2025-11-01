@@ -6,7 +6,7 @@ const cors = require('cors');
 const productRoutes = require('./routes/productRoutes');
 const sendOrderRoute = require('./routes/sendmsg');
 
-import dotenv from "dotenv";
+const dotenv = require("dotenv");
 dotenv.config();
 
 
