@@ -5,10 +5,10 @@ const twilio = require('twilio');
 
 // Replace these with your real Twilio credentials
 
-const accountSid = process.env.TWILIO_SID;
+const accountSid = process.env.TWILIO_ACCOUNT_SID;
 const authToken = process.env.TWILIO_AUTH_TOKEN;
 const client = twilio(accountSid, authToken);
-
+console.log("Twilio SID:", process.env.TWILIO_ACCOUNT_SID);
 // Shop owner's WhatsApp number (in Twilio sandbox format)
 const shopOwnerNumber = 'whatsapp:+919566428247';
 
