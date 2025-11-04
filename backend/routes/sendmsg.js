@@ -24,7 +24,7 @@ router.post('/send-order', async (req, res) => {
   try {
     await client.messages.create({
       body: message,
-      from: 'whatsapp:+14155238886', // Twilio sandbox number
+      from: process.env.TWILIO_SANDBOX_NUMBER, // Twilio sandbox number
       to: shopOwnerNumber
     });
 
